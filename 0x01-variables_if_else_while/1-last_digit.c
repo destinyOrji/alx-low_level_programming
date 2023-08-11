@@ -17,15 +17,15 @@ n = rand() - RAND_MAX / 2;
 id = n % 10;
 if (id > 5)
 {
-printf("last digit of %d is %d and is greater than 5\n", n, id);
+printf("Last digit of %d is %d and is greater than 5\n", n, id);
 }
 else if (id == 0)
 {
-printf("last digit of %d is %d and is 0\n", n, id);
+printf("Last digit of %d is %d and is 0\n", n, id);
 }
 else if (id < 6 && id != 0)
 {
-printf("last digit of %d is %d and is less than 6 and not 0\n", n, id);
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n, id);
 }
 return (0);
 }
