@@ -27,7 +27,7 @@ if (s[a] >= '0' && s[a] <= '9')
 digit = s[a] - '0';
 if (b % 2)
 digit = -digit;
- n = n * 10 + digit;
+n = n * 10 + digit;
 d = 1;
 if (s[a + 1] < '0' || s[a + 1] > '9')
 break;
@@ -58,7 +58,7 @@ return (1);
 }
 num1 = _atoi(argv[1]);
 num2 = _atoi(argv[2]);
-result = num1 * num2;
+result = num1 *num2;
 printf("%d\n", result);
 return (0);
 }
